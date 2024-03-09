@@ -1,0 +1,209 @@
+{
+  "categories": [
+    {
+      "name": "disney",
+      "content": [
+        {
+          "title": "Mulan",
+          "description": "Mulan is a Disney animated film that tells the story of a young Chinese woman who disguises herself as a man to take her father's place in the army and protect her country from invasion. It's a story of bravery, honor, and self-discovery.",
+          "image": "https://lumiere-a.akamaihd.net/v1/images/gallery_princess_mulan_5_afaf27dd_0a2cd186.jpeg?region=0,0,2181,1223",
+          "tags": [
+            "Animation",
+            "Classic"
+          ]
+        },
+        {
+          "title": "The Lion King",
+          "description": "The Lion King is a Disney animated film that follows the story of Simba, a young lion destined to be king. After the death of his father, Simba must confront his uncle Scar and reclaim his place in the circle of life.",
+          "image": "https://www.billboard.com/wp-content/uploads/media/the-lion-king-1994-everett-billboard-1548.jpg?w=1024",
+          "tags": [
+            "Animation",
+            "Classic"
+          ]
+        },
+        {
+          "title": "Frozen",
+          "description": "Frozen is a Disney animated film that follows the adventures of two sisters, Elsa and Anna, in a snow-covered kingdom. Elsa, with magical ice powers, accidentally unleashes eternal winter, and Anna must seek her out and undo the spell.",
+          "image": "https://www.nacionrex.com/__export/1569870059427/sites/debate/img/2019/09/30/frozen_2_elsa_por_que_no_tiene_interes_amoroso_explicacion_disney_2019_1_crop1569869626435.jpg_1758632412.jpg",
+          "tags": [
+            "Animation",
+            "Musical"
+          ]
+        },
+        {
+          "title": "Beauty and the Beast",
+          "description": "Beauty and the Beast is a Disney animated film that tells the story of Belle, a smart and brave young woman who becomes trapped in the castle of a cursed beast. Over time, they learn to love each other and break the spell.",
+          "image": "https://variety.com/wp-content/uploads/2016/11/beauty-and-the-beast-trailer.jpg",
+          "tags": [
+            "Animation",
+            "Classic"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "marvel",
+      "content": [
+        {
+          "title": "Iron Man",
+          "description": "Iron Man is a Marvel movie that introduces Tony Stark, a billionaire genius who becomes the superhero Iron Man after being kidnapped and forced to build a weapon of mass destruction. He decides to use his technology to protect the world.",
+          "image": "https://a1.eestatic.com/cronicaglobal/2015/01/14/creacion/creacion_3260216_1493411_1706x960.jpg",
+          "tags": [
+            "Action",
+            "Superhero"
+          ]
+        },
+        {
+          "title": "The Avengers",
+          "description": "The Avengers is a Marvel movie that brings together various superheroes, including Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye, to face off against an alien threat led by Loki. Together, they form a powerful team known as the Avengers.",
+          "image": "https://bgr.com/wp-content/uploads/2019/04/avengers-endgame.jpg?quality=82&strip=all&w=1020&h=574&crop=1",
+          "tags": [
+            "Action",
+            "Superhero"
+          ]
+        },
+        {
+          "title": "Guardians of the Galaxy",
+          "description": "Guardians of the Galaxy is a Marvel movie that follows the adventures of a group of misfits who come together to protect the universe from a cosmic threat. With Star-Lord, Gamora, Drax, Rocket, and Groot, they form an unlikely but effective team.",
+          "image": "https://ichef.bbci.co.uk/images/ic/640x360/p061d1pl.jpg",
+          "tags": [
+            "Action",
+            "Sci-Fi"
+          ]
+        },
+        {
+          "title": "Black Panther",
+          "description": "Black Panther is a Marvel movie that follows T'Challa, the king of Wakanda, an advanced African nation. After the death of his father, T'Challa must protect his home and face both internal and external threats as the hero Black Panther.",
+          "image": "https://de.web.img3.acsta.net/r_654_368/newsv7/19/11/28/16/13/0831775.jpg",
+          "tags": [
+            "Action",
+            "Superhero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "natGeo",
+      "content": [
+        {
+          "title": "Free Solo",
+          "description": "Free Solo is a National Geographic documentary that follows climber Alex Honnold as he attempts to free climb El Capitan in Yosemite National Park without a safety rope. It's a breathtaking look at human determination and extreme risk.",
+          "image": "https://static.toiimg.com/img/81174550/Master.jpg",
+          "tags": [
+            "Documentary",
+            "Adventure"
+          ]
+        },
+        {
+          "title": "Jane",
+          "description": "Jane is a National Geographic documentary that chronicles the life and work of Jane Goodall, a renowned primatologist known for her study of chimpanzees in Tanzania. It's a fascinating exploration of her life and contributions to science.",
+          "image": "https://static.nationalgeographicla.com/files/styles/image_3200/public/02-jane-goodall-difficult-women.jpg?w=1900&h=1269&p=top",
+          "tags": [
+            "Documentary",
+            "Biography"
+          ]
+        },
+        {
+          "title": "The Cave",
+          "description": "The Cave is a National Geographic documentary that follows a group of doctors working in an underground hospital in Syria during the civil war. It's a heartbreaking story of humanity and hope in times of conflict.",
+          "image": "https://static.nationalgeographic.es/files/styles/image_3200/public/thumb-1580388653.jpg?w=1600&h=900",
+          "tags": [
+            "Documentary",
+            "War"
+          ]
+        },
+        {
+          "title": "Before the Flood",
+          "description": "Before the Flood is a National Geographic documentary that follows actor and activist Leonardo DiCaprio as he travels the world to explore the effects of climate change and search for solutions. It's a call to action to address the climate crisis.",
+          "image": "https://cdn1.edgedatg.com/aws/v2/natgeotv/NatGeoTVMiscellaneous/tile/3698027/ae2c55180b8339929713582ecc5c98e9/1528x860-Q75_ae2c55180b8339929713582ecc5c98e9.jpg",
+          "tags": [
+            "Documentary",
+            "Environmental"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pixar",
+      "content": [
+        {
+          "title": "Toy Story",
+          "description": "Toy Story is a Pixar movie that follows the lives of Andy's toys, especially Woody and Buzz Lightyear, who compete for their owner's affection. It's a story of friendship, adventure, and learning to embrace change.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYwQ_bfiiFlKzcIEOhG3Ix7eA-2qFsznltkBZ9DIML4Q&s",
+          "tags": [
+            "Animation",
+            "Adventure"
+          ]
+        },
+        {
+          "title": "Finding Nemo",
+          "description": "Finding Nemo is a Pixar movie that follows the journey of a clownfish named Marlin as he searches for his son Nemo, who has been captured and taken to an aquarium. It's a heartwarming story about family and courage.",
+          "image": "https://www.pluggedin.com/wp-content/uploads/2019/12/finding-nemo-review-image-2-1-1024x587.jpg",
+          "tags": [
+            "Animation",
+            "Adventure"
+          ]
+        },
+        {
+          "title": "Up",
+          "description": "Up is a Pixar movie that follows widower Carl Fredricksen as he fulfills his dream of flying his house to South America with thousands of balloons. Along the way, he encounters Russell, a young Wilderness Explorer, and they have an unforgettable adventure together.",
+          "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C39B7E35F0B7DC62AC95AF3B5FC0B1DA58C3EC6F8200CF80A4C8EC5A71893B83/scale?width=440&aspectRatio=1.78&format=webp",
+          "tags": [
+            "Animation",
+            "Adventure"
+          ]
+        },
+        {
+          "title": "Inside Out",
+          "description": "Inside Out is a Pixar film that explores the emotions inside the mind of a girl named Riley. Joy, Sadness, Fear, Anger, and Disgust work together to help Riley through the challenges of growing up and adapting to a new environment.",
+          "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2015/07/24/10/34insideout2407a.jpg?width=1200&auto=webp&quality=75",
+          "tags": [
+            "Animation",
+            "Fantasy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "starWars",
+      "content": [
+        {
+          "title": "Star Wars: Episode IV - A New Hope",
+          "description": "Star Wars: Episode IV - A New Hope is the first film in the original Star Wars trilogy. It follows Luke Skywalker, Han Solo, and Princess Leia as they battle the Galactic Empire and come together to destroy the Death Star.",
+          "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/81A736C2B6CC7B7B4A3F2E2381E36542715DFC550F765F49BC0770898DE5F32B/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+          "tags": [
+            "Sci-Fi",
+            "Adventure"
+          ]
+        },
+        {
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "description": "Star Wars: Episode V - The Empire Strikes Back is the second film in the original Star Wars trilogy. It continues Luke Skywalker's story as he trains with Yoda and faces Darth Vader in an epic battle.",
+          "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B92552B7CE9B7BB39BB3BDC551F35DB98C04740118F5B30975134814DF7A4E62/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+          "tags": [
+            "Sci-Fi",
+            "Adventure"
+          ]
+        },
+        {
+          "title": "Star Wars: Episode VI - Return of the Jedi",
+          "description": "Star Wars: Episode VI - Return of the Jedi is the third film in the original Star Wars trilogy. It follows the final battle between the Rebel Alliance and the Galactic Empire, as Luke Skywalker attempts to redeem his father, Darth Vader.",
+          "image": "https://s.yimg.com/uu/api/res/1.2/A1uCk4Xf8.ce3hbIAT9KOw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2023-04/de355890-d64c-11ed-af7d-999610fb8470.cf.jpg",
+          "tags": [
+            "Sci-Fi",
+            "Adventure"
+          ]
+        },
+        {
+          "title": "Star Wars: Episode VII - The Force Awakens",
+          "description": "Star Wars: Episode VII - The Force Awakens is the first film in the new Star Wars trilogy. It follows new characters like Rey, Finn, and Poe Dameron as they battle the First Order and search for Luke Skywalker.",
+          "image": "https://facts.net/wp-content/uploads/2023/06/32-facts-about-the-movie-star-wars-the-force-awakens-1687524943.jpeg",
+          "tags": [
+            "Sci-Fi",
+            "Adventure"
+          ]
+        }
+      ]
+    }
+  ]
+}

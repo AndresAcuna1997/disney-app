@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "name": "disney"
+    },
+    {
+      "name": "marvel"
+    },
+    {
+      "name": "natGeo"
+    },
+    {
+      "name": "pixar"
+    },
+    {
+      "name": "starWars"
+    }
+  ]
+}
