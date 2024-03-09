@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router';
 import { useForm } from '../hooks';
 import { FormErrorMessage } from '../components';
 import { AuthContext } from '../context/auth/authContext';
+import disneyLogo from '../assets/disney--1.svg';
 
 const initialFormValue = {
   email: '',
@@ -39,17 +40,27 @@ export const LoginPage = () => {
       return setErrorMessage( 'Please enter your credentials' );
     }
 
+
+
     handleLogIn();
     navigate( '/', { replace: true } );
   };
 
   return (
-    <div className="w-screen h-screen bg-gradient-to-b from-blue-950 to-blue-600 flex justify-center items-center">
-      <form className="bg-white py-8 px-16 rounded-md shadow-md" onSubmit={ handleSubmit }>
+    <main className="w-screen h-screen bg-gradient-to-b from-blue-950 to-blue-600 flex flex-col justify-center items-center">
+      
+      <img
+        className="w-1/12"
+        src={ disneyLogo } alt="disney-logo"
+      />
 
-        <h2 className="font-semibold text-3xl text-center">Log in</h2>
-        <br />
-        <p>Please enter your email and password</p>
+      <form className="bg-white w-3/12 py-8 px-16 rounded-md shadow-md" onSubmit={ handleSubmit }>
+
+        <div className="text-center">
+          <h2 className="font-semibold text-3xl ">Log in</h2>
+          <br />
+          <p>Please enter your email and password</p>
+        </div>
 
         <div className="flex flex-col gap-2 mt-4">
           <label
@@ -101,6 +112,6 @@ export const LoginPage = () => {
           )
         }
       </form>
-    </div>
+    </main>
   );
 };

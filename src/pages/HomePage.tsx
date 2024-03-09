@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { CategoryCard, ContentCategory, ContentDetails, NavBar } from '../components';
+import { CategoryCard, ContentCategory, ContentDetails, Loading, NavBar } from '../components';
 import { ContentContext } from '../context/content/contentContext';
 import { useCategories, useContentCategory } from '../hooks';
 
@@ -28,21 +28,29 @@ export const HomePage = () => {
         </section>
 
         {/* Content Category */ }
-        <section className={ `my-5 ${ contentCategory ? ' border-t-2 border-white' : '' }` }>
+        <section className={ `my-5 ${ contentCategory.length > 0 ? ' border-t-2 border-white' : '' }` }>
           {
-            ( contentCategory.length !== 0 )
-              ? (
-                <>
-                  <h1 className="font-bold text-3xl my-4 text-white">Recommended</h1>
-                  <ContentCategory />
-                </>
-              )
-              : (
+            ( contentCategory.length <= 0 )
+              ?
+              (
                 <div className="flex flex-col gap-4 h-96 justify-center items-center  text-white">
                   <h1 className="text-3xl">Please select a category</h1>
                   <i className="text-8xl fa-regular fa-hand-pointer"></i>
                 </div>
               )
+              :
+              ( isLoadingContent )
+                ?
+                (
+                  <Loading />
+                )
+                :
+                (
+                  <>
+                    <h1 className="font-bold text-3xl my-4 text-white">Recommended</h1>
+                    <ContentCategory />
+                  </>
+                )
           }
         </section>
 

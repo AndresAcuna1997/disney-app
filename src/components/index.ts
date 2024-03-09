@@ -4,3 +4,4 @@ export * from "./NavBar";
 export * from "./ContentCategory";
 export * from "./ContentCategoryCard";
 export * from "./ContentDetails";
+export * from "./Loading";
