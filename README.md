@@ -1,30 +1,16 @@
-# Disney + App 
+# Disney + App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Created with vite using NPM
 
-Currently, two official plugins are available:
+1. Clone the repository
+2. Execute `npm i`
+3. Execute `npm run dev`
+4. Open the url show in the console
+5. To Log in you can use any credentials, the app desnt have a backend, so the login is just for show the functionality of the app:
+   Example: - Email: test@test.com - Password: 123
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+==The app is not responsive, so it is recommended to use it on a desktop==
 
-## Expanding the ESLint configuration
+## Live Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- http://disney-app.s3-website.us-east-2.amazonaws.com/

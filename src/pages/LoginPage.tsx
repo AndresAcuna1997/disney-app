@@ -40,15 +40,24 @@ export const LoginPage = () => {
       return setErrorMessage( 'Please enter your credentials' );
     }
 
+    if ( password.trim() === '' ) {
+      return setErrorMessage( 'Please enter your credentials' );
+    }
 
+    const emailRegex = /^[a-z0-9]+([._]?[a-z0-9]+)*@[a-z0-9.-]+\.[a-z]{2,}$/i;
+
+    if ( !emailRegex.test( email ) ) {
+      return setErrorMessage( 'Your email is not valid' );
+    }
 
     handleLogIn();
+
     navigate( '/', { replace: true } );
   };
 
   return (
     <main className="w-screen h-screen bg-gradient-to-b from-blue-950 to-blue-600 flex flex-col justify-center items-center">
-      
+
       <img
         className="w-1/12"
         src={ disneyLogo } alt="disney-logo"
@@ -73,7 +82,7 @@ export const LoginPage = () => {
             type="email"
             onChange={ handleChange }
             value={ email }
-            placeholder='Email'
+            placeholder='Enter your email'
           />
 
           <label
@@ -85,7 +94,7 @@ export const LoginPage = () => {
             type={ passwordType }
             onChange={ handleChange }
             value={ password }
-            placeholder='Password'
+            placeholder='Enter your password'
           />
 
           <label htmlFor="changeTypePassword" className="cursor-pointer">

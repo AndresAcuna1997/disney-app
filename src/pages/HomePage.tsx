@@ -14,7 +14,7 @@ export const HomePage = () => {
         <NavBar />
       </header>
 
-      <main className="w-full h-screen px-20 py-10 bg-gradient-to-b from-slate-950 via-slate-800 to-slate-600">
+      <main className="w-full min-h-screen h-full px-20 py-10 bg-gradient-to-b from-slate-950 via-slate-800 to-slate-600">
 
         {/* Categories */ }
         <section className="flex gap-3">
@@ -28,31 +28,33 @@ export const HomePage = () => {
         </section>
 
         {/* Content Category */ }
-        <section className={ `my-5 ${ contentCategory.length > 0 ? ' border-t-2 border-white' : '' }` }>
-          {
-            ( contentCategory.length <= 0 )
-              ?
-              (
+
+        {
+          ( contentCategory.length <= 0 )
+            ?
+            (
+              <section className={ `my-5 ${ contentCategory.length > 0 ? ' border-t-2 border-white' : '' }` }>
                 <div className="flex flex-col gap-4 h-96 justify-center items-center  text-white">
                   <h1 className="text-3xl">Please select a category</h1>
                   <i className="text-8xl fa-regular fa-hand-pointer"></i>
                 </div>
+              </section>
+
+            )
+            :
+            ( isLoadingContent )
+              ?
+              (
+                <Loading />
               )
               :
-              ( isLoadingContent )
-                ?
-                (
-                  <Loading />
-                )
-                :
-                (
-                  <>
-                    <h1 className="font-bold text-3xl my-4 text-white">Recommended</h1>
-                    <ContentCategory />
-                  </>
-                )
-          }
-        </section>
+              (
+                <section className={ `my-5 ${ contentCategory.length > 0 ? ' border-t-2 border-white' : '' }` }>
+                  //TODO : IMPLEMENT MORE THAN ONE ROW
+                  <ContentCategory />
+                </section>
+              )
+        }
 
         {/* Content Details Category */ }
         <section className="mt-4">

@@ -8,7 +8,9 @@ export const ContentCategory = () => {
 
   return (
     <>
-      <div className="flex mt-4 gap-4 overflow-auto">
+      <h1 className="font-bold text-3xl my-4 text-white">Recommended</h1>
+
+      <div className="flex mt-4 gap-4">
         {/*Category Cards*/ }
         {
           contentCategory.map( ( item ) => (
@@ -18,8 +20,9 @@ export const ContentCategory = () => {
             />
           ) )
         }
-
       </div>
+
+
     </>
   );
 };
