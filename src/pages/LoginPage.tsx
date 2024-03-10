@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useContext, useState } from 'react';
-import { useNavigate } from 'react-router';
+import { Navigate, useNavigate } from 'react-router-dom';
 import { useForm } from '../hooks';
 import { FormErrorMessage } from '../components';
 import { AuthContext } from '../context/auth/authContext';
@@ -20,7 +20,7 @@ export const LoginPage = () => {
   const [ passwordType, setPasswordType ] = useState( 'password' );
   const [ errorMessage, setErrorMessage ] = useState( '' );
 
-  const { handleLogIn } = useContext( AuthContext );
+  const { status, handleLogIn } = useContext( AuthContext );
 
   const handleChangePasswordType = ( e: ChangeEvent<HTMLInputElement> ) => {
     if ( e.target.checked ) {
@@ -51,9 +51,12 @@ export const LoginPage = () => {
     }
 
     handleLogIn();
-
-    navigate( '/', { replace: true } );
+    navigate( '/' );
   };
+
+  if ( status === 'authenticated' ) {
+    return ( <Navigate to="/" /> );
+  }
 
   return (
     <main className="w-screen h-screen bg-gradient-to-b from-blue-950 to-blue-600 flex flex-col justify-center items-center">
